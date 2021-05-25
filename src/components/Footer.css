@@ -1,0 +1,65 @@
+/* Mobile landscape and portrait displays less than 568px width*/
+
+.flex-footer {
+  background-color: black;
+  color: white;
+  padding: 0;
+  margin: 0;
+  height: auto;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.div-logo-footer {
+  padding: 10px;
+}
+
+.logowest-footer {
+  width: 5rem;
+  height: auto;
+  margin: auto;
+}
+
+p {
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 10px;
+}
+
+input[type="email"] {
+  border: 1px solid #555;
+  background-color: #f8f8f8;
+  width: 5rem;
+  height: 2rem;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+input[type="text"]:focus {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+@media only screen and (min-width: 568px) {
+}
+
+/* Tablet, portrait displays */
+@media only screen and (min-width: 768px) {
+}
+
+/* Tablet, landscape displays */
+@media only screen and (min-width: 1024px) {
+}
+
+/* laptop displays */
+@media only screen and (min-width: 1366px) {
+}
+
+/* Desktop and Retina displays */
+@media only screen and (min-width: 1920px) {
+}

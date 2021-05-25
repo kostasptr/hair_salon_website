@@ -1,0 +1,20 @@
+/* Mobile landscape and portrait displays less than 568px width*/
+
+@media only screen and (min-width: 568px) {
+}
+
+/* Tablet, portrait displays */
+@media only screen and (min-width: 768px) {
+}
+
+/* Tablet, landscape displays */
+@media only screen and (min-width: 1024px) {
+}
+
+/* laptop displays */
+@media only screen and (min-width: 1366px) {
+}
+
+/* Desktop and Retina displays */
+@media only screen and (min-width: 1920px) {
+}

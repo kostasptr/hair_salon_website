@@ -1,0 +1,265 @@
+/* Mobile landscape & portrait οθόνες μικρότερες των 568px πλάτους*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* προκειμένου να μην εξέχει το element που είναι μεγαλύτερο από αυτό που το περιέχει αφήνοντας έναν άσπρο χώρο ανάμεσα στα div, χρησιμοποιούμε το
+clearfix ανάμεσα στα divs για να εξαλείφεται αυτή η επιφάνεια.
+Το clearfix με το selector after χρησιμοποιείται για να προσθέσoyμε μετά το περιεχόμενο ενός element
+το property content χρησιμοποιείται μαζί με το selector after και εισάγει το περιεχόμενο που περιέχεται μεταξύ των ""
+το property display καθορίζει την συμπεριφορά εμφάνισης ενός element. Value table σημαίνει ότι θα συμπεριφέρεται σαν πίνακας
+δηλαδή δεν πιάνει περισσότερο χώρο δεξιά αριστερά απόσο πραγματικά είναι
+το property clear καθορίζει σε ποιές πλευρές του element ΔΕΝ μπορεί να float ένα άλλο element */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* το μοτιβο που χρησιμοποιήθηκε για φόντο */
+.pattern2 {
+  background-color: none;
+  background-image: url(../images/pattern2.jpg);
+  background-repeat: repeat;
+  background-size: contain;
+  width: 100%;
+}
+
+/* τα div αυτά περιγράφουν την κάθε μια από τις τέσσερις υπηρεσίες */
+div.haircut-div,
+div.styling-div,
+div.coloring-div,
+div.treatment-div {
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  padding: 0px;
+  display: block;
+  color: black;
+  font-family: "Montserrat", "Roboto", sans-serif;
+  font-size: 1rem;
+  background-color: white;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  width: 90%;
+  /* border: solid 1px black; */
+  cursor: default;
+}
+
+/* κλάση του τίτλου του div */
+.haircut-div-title,
+.styling-div-title,
+.coloring-div-title,
+.treatment-div-title {
+  font-family: "Montserrat", "Roboto", sans-serif;
+  font-size: 1.5rem;
+  background-color: white;
+}
+
+/* κλάση του div που περιέχει τις εικόνες μας */
+.responsive {
+  width: 100%;
+  margin: auto;
+  margin-top: 6%;
+  margin-bottom: 6%;
+  padding: 0px;
+}
+
+/* image container */
+div.gallery {
+  overflow: hidden;
+  max-width: 90%;
+  height: auto;
+  margin: auto;
+}
+
+/* αρχικό πλάτος εικόνας */
+div.gallery img {
+  max-block-size: 90%;
+  height: auto;
+  margin: auto;
+}
+
+/* μεγέθυνση εικόνας κατά το hover πάνω από το div gallery */
+.gallery:hover img {
+  cursor: pointer;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+/* κλάση της εικόνας που είναι child του gallery που είναι child του responsive.
+  Property transition για πιο smooth μετάβαση κατά το hover */
+.image-zoom {
+  width: 90%;
+  display: block;
+  transition: transform 0.5s ease;
+  -webkit-transition: transform 0.5s ease;
+  -moz-transition: transform 0.5s ease;
+  -ms-transition: transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
+}
+
+/* κατα το κλικ της εικονας την κανει κορεσμενη */
+.gallery:active img {
+  filter: saturate(10);
+  -webkit-filter: saturate(10);
+}
+
+/*Child του responsive, περιέχει το slider-carousel*/
+.slider {
+  overflow: hidden;
+  max-width: 90%;
+  height: auto;
+  margin: auto;
+}
+
+/*Child του slider. Περιέχει την κάθε εικόνα με το overlay text*/
+.slider-img-container {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+ul.alice-carousel__dots {
+  margin: 0px 3px 5px;
+}
+
+li.alice-carousel__dots-item:not(.__custom):hover,
+li.alice-carousel__dots-item:not(.__custom).__active {
+  background-color: red;
+}
+
+/*Child του slider-img-container. */
+.slider-img {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  object-fit: cover;
+  display: block;
+}
+
+/*overlay text κατα το hover της εικόνας*/
+.overlay {
+  cursor: default;
+  display: flex;
+  /*Positionthebackgroundtext*/
+  position: absolute;
+  /*Atthebottom*/
+  bottom: 0;
+  /*Fallbackcolor*/
+  background: rgb(0, 0, 0);
+  /*Blackbackgroundwith0.5opacity*/
+  background: rgba(0, 0, 0, 0.5);
+  /*Greytext*/
+  color: #f1f1f1;
+  /*Fullwidth*/ /*width: 100%;
+  */ /*Somepadding*/
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 10px;
+  width: 100%;
+  transition: opacity 0.2s ease;
+  opacity: 0;
+  transform: translateY(0%);
+  -webkit-transition: opacity 0.2s ease;
+  -moz-transition: opacity 0.2s ease;
+  -ms-transition: opacity 0.2s ease;
+  -o-transition: opacity 0.2s ease;
+  -webkit-transform: translateY(0%);
+  -moz-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  -o-transform: translateY(0%);
+  font-family: "Montserrat", "Roboto", sans-serif;
+  font-size: 0.5rem;
+}
+
+div.slider-img-container:hover div.overlay {
+  opacity: 1;
+}
+
+div.slider-img-container:active img {
+  filter: saturate(10);
+  -webkit-filter: saturate(10);
+}
+
+.no-decoration {
+  text-decoration: none;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.bold-title {
+  font-size: 1.2rem;
+}
+
+/* container που περιέχει τίτλο και κείμενο για το κάθε treatment  */
+.container-treatment-textbox {
+  padding-top: 10px;
+  margin: auto;
+  width: 90%;
+  cursor: pointer;
+  font-family: "Montserrat", "Roboto", sans-serif;
+  font-size: 1rem;
+  background-color: white;
+  letter-spacing: 2px;
+}
+
+div.container-treatment-textbox:hover p.bold-title {
+  text-decoration: underline;
+}
+
+div.container-treatment-textbox:active {
+  filter: saturate(10);
+  -webkit-filter: saturate(10);
+}
+
+div.flex-container:nth-of-type(3) {
+  padding: 35px 15px 15px 15px;
+}
+
+div.flex-container:nth-of-type(5) {
+  padding: 35px 15px 15px 15px;
+}
+
+div.flex-container:nth-of-type(7) {
+  padding: 35px 15px 15px 15px;
+}
+
+@media only screen and (min-width: 568px) {
+}
+
+/* Tablet, portrait displays */
+@media only screen and (min-width: 768px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+}
+
+/* Tablet, landscape displays */
+@media only screen and (min-width: 1024px) {
+}
+
+/* laptop displays */
+@media only screen and (min-width: 1366px) {
+}
+
+/* Desktop and Retina displays */
+@media only screen and (min-width: 1920px) {
+}

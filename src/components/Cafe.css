@@ -1,0 +1,104 @@
+/* Mobile landscape and portrait displays less than 568px width*/
+
+.container-cafe {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.img-cafe {
+  width: 100%;
+  display: block;
+}
+
+.content-title-cafe {
+  cursor: default;
+  font-family: "Montserrat", "Roboto", sans-serif;
+  font-size: 3vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+div.content-title-cafe p:nth-of-type(1) {
+  padding: 0;
+}
+
+div.content-title-cafe p:nth-of-type(2) {
+  padding: 0;
+}
+
+/* .content-text-cafe {
+    cursor: default;
+    font-family: "Montserrat", "Roboto", sans-serif;
+    font-size: 1rem;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+   
+    width: 100%;
+    transform: translateY(-65%);
+    -webkit-transform: translateY(-65%);
+    -moz-transform: translateY(-65%);
+    -ms-transform: translateY(-65%);
+    -o-transform: translateY(-65%);
+  } */
+
+.content-text-margins {
+  padding: 0px 20px;
+}
+
+a.here-text {
+  font-family: "Montserrat", "Roboto", sans-serif;
+  font-size: 3vw;
+  color: white;
+  text-decoration: line-through;
+}
+
+a.here-text:hover {
+  text-decoration: none;
+}
+
+.div-playlist {
+  background-color: #929f00;
+  background-clip: content-box;
+  margin: 0;
+  padding: 0;
+  display: block;
+  /* padding: var(--padding); */
+  /* box-shadow: inset var(--padding) lightgreen; */
+}
+
+.playlist {
+  max-width: 70%;
+
+  /* background-clip: content-box; */
+  /* box-shadow: inset 11rem lightGreen; */
+}
+
+@media only screen and (min-width: 568px) {
+}
+
+/* Tablet, portrait displays */
+@media only screen and (min-width: 768px) {
+}
+
+/* Tablet, landscape displays */
+@media only screen and (min-width: 1024px) {
+}
+
+/* laptop displays */
+@media only screen and (min-width: 1366px) {
+}
+
+/* Desktop and Retina displays */
+@media only screen and (min-width: 1920px) {
+}

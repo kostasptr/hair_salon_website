@@ -1,0 +1,68 @@
+/* Mobile landscape and portrait displays less than 568px width*/
+
+.container-history {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: DodgerBlue;
+}
+
+.container-history:nth-of-type(4) {
+  padding: 0px 0px 10px 0px;
+}
+
+.container-history > div {
+  background-color: white;
+  margin: 10px 10px 0px 10px;
+  border: 5px solid black;
+  width: 100%;
+}
+
+.element-photos {
+  order: 1;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.element-text {
+  cursor: default;
+  order: 2;
+  display: flex;
+  width: 100vw;
+  height: 92.5vw;
+  color: black;
+  font-family: "Montserrat", "Roboto", sans-serif;
+  font-size: 4vw;
+  align-items: center;
+  /* height: auto; */
+}
+
+/* .naration {
+    font-size: 4vw;
+    line-height: 1vw;
+  } */
+
+@media only screen and (min-width: 568px) {
+}
+
+/* Tablet, portrait displays */
+@media only screen and (min-width: 768px) {
+}
+
+/* Tablet, landscape displays */
+@media only screen and (min-width: 1024px) {
+}
+
+/* laptop displays */
+@media only screen and (min-width: 1366px) {
+}
+
+/* Desktop and Retina displays */
+@media only screen and (min-width: 1920px) {
+}
