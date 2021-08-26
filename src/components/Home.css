@@ -14,7 +14,7 @@
 /* το container που περιλαμβάνει την εικόνα τον τίτλο και την περιγραφή της υπηρεσίας */
 .container-div {
   position: relative;
-  padding: 3vw;
+  margin: 3vw;
   text-align: center;
   background-repeat: repeat;
   cursor: pointer;
@@ -114,15 +114,15 @@ span.services-title:hover {
   transition: 0.5s ease;
   position: absolute;
   text-align: center;
-  top: 95%;
+  bottom: 0;
   left: 50%;
-  width: 94%;
+  width: 100%;
   padding: 5px 10px;
-  transform: translate(-50%, -95%);
-  -webkit-transform: translate(-50%, -95%);
-  -moz-transform: translate(-50%, -95%);
-  -ms-transform: translate(-50%, -95%);
-  -o-transform: translate(-50%, -95%);
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
 }
 
 /* κλάση του κειμένου που περιγράφει την πυηρεσία */

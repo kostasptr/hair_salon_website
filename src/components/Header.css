@@ -74,19 +74,19 @@ body {
   padding: 0;
 }
 
-ul.nav-items a {
-  text-decoration: none;
+ul.nav-items .nav-link {
   font-weight: bold;
-  color: rgb(0, 0, 0);
   font-size: 13px;
   font-family: "Myriad Pro", "Helvetica Neue", Arial, "sans serif";
   font-weight: 500;
   padding: 0;
   margin: 0px 0.5em;
+  position: relative;
 }
 
 ul.nav-items a {
-  position: relative;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
 }
 
 ul.nav-items a:active {
