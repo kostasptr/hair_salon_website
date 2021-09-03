@@ -84,21 +84,22 @@ a.here-text:hover {
   /* box-shadow: inset 11rem lightGreen; */
 }
 
+/* Mobile, landscape */
 @media only screen and (min-width: 568px) {
 }
 
-/* Tablet, portrait displays */
+/* Tablet, portrait */
 @media only screen and (min-width: 768px) {
 }
 
-/* Tablet, landscape displays */
+/* Tablet, landscape */
 @media only screen and (min-width: 1024px) {
 }
 
-/* laptop displays */
+/* Laptop displays */
 @media only screen and (min-width: 1366px) {
 }
 
-/* Desktop and Retina displays */
+/* Desktop displays */
 @media only screen and (min-width: 1920px) {
 }

@@ -235,6 +235,7 @@ div.flex-container:nth-of-type(7) {
   padding: 35px 15px 15px 15px;
 }
 
+/* Mobile, landscape */
 @media only screen and (min-width: 568px) {
 }
 
@@ -252,14 +253,16 @@ div.flex-container:nth-of-type(7) {
   }
 }
 
-/* Tablet, landscape displays */
+
+
+/* Tablet, landscape */
 @media only screen and (min-width: 1024px) {
 }
 
-/* laptop displays */
+/* Laptop displays */
 @media only screen and (min-width: 1366px) {
 }
 
-/* Desktop and Retina displays */
+/* Desktop displays */
 @media only screen and (min-width: 1920px) {
 }
