@@ -1,11 +1,21 @@
 /* Mobile landscape and portrait displays less than 568px width*/
 
 .flex-footer {
-  background-color: black;
-  color: white;
-  padding: 0;
+  display:flex;
+  flex-direction: row;
+  background-color: none;
+  color: black;
+  font-family: "Righteous", cursive;
+  font-size: 4vw;
+  padding: 3vw;
   margin: 0;
   height: auto;
+  justify-content: space-between;
+  align-items:flex-end;
+}
+
+div:nth-last-child(2){
+  z-index: 1;
 }
 
 h1 {
@@ -45,21 +55,28 @@ input[type="text"]:focus {
   border: 1px solid rgb(0, 0, 0);
 }
 
+.copyright_notice {
+ color: rgba(0, 0, 0, 0.6);
+ padding:0px; 
+}
+
+
+/* Mobile, landscape */
 @media only screen and (min-width: 568px) {
 }
 
-/* Tablet, portrait displays */
+/* Tablet, portrait */
 @media only screen and (min-width: 768px) {
 }
 
-/* Tablet, landscape displays */
+/* Tablet, landscape */
 @media only screen and (min-width: 1024px) {
 }
 
-/* laptop displays */
+/* Laptop displays */
 @media only screen and (min-width: 1366px) {
 }
 
-/* Desktop and Retina displays */
+/* Desktop displays */
 @media only screen and (min-width: 1920px) {
 }

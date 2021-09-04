@@ -2,63 +2,33 @@ import React from 'react';
 import './Footer.css';
 import { faFacebookF, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import logo from '../images/logo.jpg';
-// import { useForm } from "react-hook-form";
+import ScrollButton from './ScrollButton';
+
 function Footer() {
 
-  // constructor(props){
-  //   super(props);
-  //   this.state = {value: ''};
+  return (
+    <footer className="App-Footer">
 
-  //   this.handleChange = this.handleChange.bind(this);
-  //   this.handleSubmit = this.handleSubmit.bind(this);
-  // }
+      <div className="flex-footer">
 
-  // handleChange(event) {
-  //   this.setState({value: event.target.value});
-  // }
-
-  // handleSubmit(event) {
-  //   alert('A name was submitted: ' + this.state.value);
-  //   event.preventDefault();
-  // }
-
-  return(
-    <div className = "App-Footer">
-      <footer>
-        <div className="flex-footer">
-          <div className="div-logo-footer">
-            <img src={logo} alt="logo" className="logowest-footer" />
-          </div>
-          
-          <p><FontAwesomeIcon icon={faFacebookF} style={{color:"green"}} size="lg"/>&nbsp;
-          <FontAwesomeIcon icon={faInstagram} style={{color:"red"}} size="lg"/>&nbsp;
-          <FontAwesomeIcon icon={faTwitter} style={{color:"yellow"}} size="lg"/></p>
-          <p>+30 6972827030, King's Street 69</p>
-          
-          
-            {/* <form onSubmit={this.handleSubmit}>
-              <label>
-                Name:
-                <input type="text" value={this.state.value} onChange={this.handleChange} />
-              </label>
-              <input type="submit" value="Submit" />
-            </form> */}
-          
-          
-          <form>
-            <label>
-              Subscribe to our newsletter<br></br>
-              <input type="email" name="email" />
-            </label>
-            <input type="submit" value="Submit" />
-          </form>
-
-          <p>&copy; 2021 John West</p>
-
+        <div>
+          <p>170 Crawford Street <br></br>London<br></br>W1H2JQ<br></br>United Kingdom<br></br></p>
+          <p>(44) 207205-2555<br></br>info@amadeus.co</p>
+          <p><strong>Follow us</strong><br></br>
+            <FontAwesomeIcon icon={faFacebookF} style={{ color: "black" }} size="sm" />&nbsp;
+            <FontAwesomeIcon icon={faInstagram} style={{ color: "black" }} size="sm" />&nbsp;
+            <FontAwesomeIcon icon={faTwitter} style={{ color: "black" }} size="sm" />
+          </p>
+          <br></br>
+          <p className="copyright_notice">&copy; 2021 Amadeus | All rights reserved</p>
         </div>
-      </footer>
-    </div>
+
+        {/* <div>
+          <ScrollButton />
+        </div> */}
+      </div>
+      <ScrollButton />
+    </footer>
   );
 }
 export default Footer;
