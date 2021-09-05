@@ -1,6 +1,5 @@
 /* eslint-disable no-template-curly-in-string */
 import React from 'react';
-import './Home.css';
 import PageBlock from './PageBlock';
 
 
