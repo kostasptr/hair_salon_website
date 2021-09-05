@@ -1,23 +1,22 @@
-/* Mobile landscape & portrait οθόνες μικρότερες των 568px πλάτους*/
+/* Mobile landscape and portrait displays less than 568px width*/
 
 * {
   box-sizing: border-box;
 }
 
-/* προκειμένου να μην εξέχει το element που είναι μεγαλύτερο από αυτό που το περιέχει αφήνοντας έναν άσπρο χώρο ανάμεσα στα div, χρησιμοποιούμε το
-clearfix ανάμεσα στα divs για να εξαλείφεται αυτή η επιφάνεια.
-Το clearfix με το selector after χρησιμοποιείται για να προσθέσoyμε μετά το περιεχόμενο ενός element
-το property content χρησιμοποιείται μαζί με το selector after και εισάγει το περιεχόμενο που περιέχεται μεταξύ των ""
-το property display καθορίζει την συμπεριφορά εμφάνισης ενός element. Value table σημαίνει ότι θα συμπεριφέρεται σαν πίνακας
-δηλαδή δεν πιάνει περισσότερο χώρο δεξιά αριστερά απόσο πραγματικά είναι
-το property clear καθορίζει σε ποιές πλευρές του element ΔΕΝ μπορεί να float ένα άλλο element */
+/* Clearfix used in order to eliminate the space between element where one contain the other.
+clearfix with selector after is used to add something after its content.
+content property is used with after selector and introduces the content which being contained between ""
+display property determines the appearance behaviour of an element. 
+->table value means it will behave like a table, more analytically it will not take more space left or right more than it should.
+->clear property determines in which sides of an element another element cannot float */
 .clearfix:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* το μοτιβο που χρησιμοποιήθηκε για φόντο */
+/* the pattern used as background */
 .pattern2 {
   background-color: none;
   background-image: url(../images/pattern2.jpg);
@@ -26,14 +25,15 @@ clearfix ανάμεσα στα divs για να εξαλείφεται αυτή 
   width: 100%;
 }
 
-/* τα div αυτά περιγράφουν την κάθε μια από τις τέσσερις υπηρεσίες */
-div.haircut-div,
-div.styling-div,
-div.coloring-div,
-div.treatment-div {
+/* these divs contain the description text for each one of the four hair salon's services */
+.haircut-div,
+.styling-div,
+.coloring-div,
+.treatment-div {
   margin: auto;
   margin-bottom: 20px;
   margin-top: 30px;
+  width: 93%;
   padding: 0px;
   display: block;
   color: black;
@@ -42,12 +42,12 @@ div.treatment-div {
   background-color: white;
   letter-spacing: 2px;
   word-spacing: 4px;
-  width: 90%;
+  
   /* border: solid 1px black; */
   cursor: default;
 }
 
-/* κλάση του τίτλου του div */
+/* classes for the titles, for each one of the above 4 div */
 .haircut-div-title,
 .styling-div-title,
 .coloring-div-title,
@@ -57,32 +57,33 @@ div.treatment-div {
   background-color: white;
 }
 
-/* κλάση του div που περιέχει τις εικόνες μας */
+/* overflow property for the divs containing the images of each service */
 .responsive {
-  width: 100%;
   margin: auto;
   margin-top: 6%;
   margin-bottom: 6%;
+  width: 94%;
   padding: 0px;
+  overflow: hidden;
 }
 
 /* image container */
-div.gallery {
+/* .gallery {
   overflow: hidden;
-  max-width: 90%;
+  max-width: 100%;
   height: auto;
   margin: auto;
-}
+} */
 
 /* αρχικό πλάτος εικόνας */
-div.gallery img {
-  max-block-size: 90%;
+/* div.gallery img {
+  max-block-size: 95%;
   height: auto;
   margin: auto;
-}
+} */
 
-/* μεγέθυνση εικόνας κατά το hover πάνω από το div gallery */
-.gallery:hover img {
+/* image zoom during hover */
+.responsive:hover img {
   cursor: pointer;
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
@@ -91,10 +92,9 @@ div.gallery img {
   -o-transform: scale(1.1);
 }
 
-/* κλάση της εικόνας που είναι child του gallery που είναι child του responsive.
-  Property transition για πιο smooth μετάβαση κατά το hover */
+/* smooth transition for hover when image's zoom effect takes place */
 .image-zoom {
-  width: 90%;
+  width: 100%;
   display: block;
   transition: transform 0.5s ease;
   -webkit-transition: transform 0.5s ease;
@@ -103,18 +103,21 @@ div.gallery img {
   -o-transition: transform 0.5s ease;
 }
 
-/* κατα το κλικ της εικονας την κανει κορεσμενη */
-.gallery:active img {
+/* when user clicks image it becomes saturated */
+.responsive:active img {
   filter: saturate(10);
   -webkit-filter: saturate(10);
 }
 
 /*Child του responsive, περιέχει το slider-carousel*/
 .slider {
-  overflow: hidden;
-  max-width: 90%;
-  height: auto;
   margin: auto;
+  margin-top: 6%;
+  margin-bottom: 6%;
+  width: 94%;
+  height: auto;
+  padding: 0px;
+  overflow: hidden;
 }
 
 /*Child του slider. Περιέχει την κάθε εικόνα με το overlay text*/
@@ -191,27 +194,29 @@ div.slider-img-container:active img {
 
 .no-decoration {
   text-decoration: none;
-  transition: 0.5s;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
+}
+
+.product_image{
+  overflow:hidden;
+  width: 100%;
 }
 
 .bold-title {
   font-size: 1.2rem;
 }
 
-/* container που περιέχει τίτλο και κείμενο για το κάθε treatment  */
+/* description container including title and text for each treatment (4th service)  */
 .container-treatment-textbox {
   padding-top: 10px;
   margin: auto;
-  width: 90%;
+  width: 100%;
   cursor: pointer;
   font-family: "Montserrat", "Roboto", sans-serif;
   font-size: 1rem;
+  color: black;
   background-color: white;
   letter-spacing: 2px;
+  overflow:hidden;
 }
 
 div.container-treatment-textbox:hover p.bold-title {
