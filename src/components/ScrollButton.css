@@ -1,24 +1,19 @@
-.btnContainer{
-   /* display:flex; */
-   /* padding-right: 3vw; */
+.btnContainer {
    position: fixed;
    bottom: 3vw;
    right: 3%;
    height: autox;
    z-index: 1;
    cursor: pointer;
-   border-style:none;
-   width:20vw;
-   /* height:45px; */
-   padding:2px 2px 2px 2px;
+   border-style: none;
+   width: 50px;
+   padding: 2px 2px 2px 2px;
    border-style: groove;
-   
+
 }
 
-.btnImage{
+.btnImage {
    background-size: contain;
 }
 
-.btnContainer{
-
-}
+.btnContainer {}

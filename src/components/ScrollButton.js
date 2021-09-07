@@ -8,8 +8,8 @@ const ScrollButton = () => {
 
     const toggleVisible = () => {
         const scrolled = document.documentElement.scrollTop;
-        if (scrolled > 70) { setVisible(true) }
-        else if (scrolled <= 70) { setVisible(false) }
+        if (scrolled > 100) { setVisible(true) }
+        else if (scrolled <= 100) { setVisible(false) }
     };
 
     const scrollToTop = () => {
@@ -29,7 +29,7 @@ const ScrollButton = () => {
 
         <button className="btnContainer" onClick={scrollToTop}
             style={{ display: visible ? 'inline' : 'none' }}>
-            <img src={buttonImage} alt="" className="btnImage" />
+            <img src={buttonImage} alt="button" className="btnImage" />
         </button>
     );
 }
