@@ -1,20 +1,20 @@
 /* Mobile landscape and portrait displays less than 568px width*/
 
 .flex-footer {
-  display:flex;
+  display: flex;
   flex-direction: row;
   background-color: none;
   color: black;
   font-family: "Righteous", cursive;
-  font-size: 4vw;
+  font-size: 13px;
   padding: 3vw;
   margin: 0;
   height: auto;
   justify-content: space-between;
-  align-items:flex-end;
+  align-items: flex-end;
 }
 
-div:nth-last-child(2){
+div:nth-last-child(2) {
   z-index: 1;
 }
 
@@ -56,27 +56,22 @@ input[type="text"]:focus {
 }
 
 .copyright_notice {
- color: rgba(0, 0, 0, 0.6);
- padding:0px; 
+  color: rgba(0, 0, 0, 0.6);
+  padding: 0px;
 }
 
 
 /* Mobile, landscape */
-@media only screen and (min-width: 568px) {
-}
+@media only screen and (min-width: 568px) {}
 
 /* Tablet, portrait */
-@media only screen and (min-width: 768px) {
-}
+@media only screen and (min-width: 768px) {}
 
 /* Tablet, landscape */
-@media only screen and (min-width: 1024px) {
-}
+@media only screen and (min-width: 1024px) {}
 
 /* Laptop displays */
-@media only screen and (min-width: 1366px) {
-}
+@media only screen and (min-width: 1366px) {}
 
 /* Desktop displays */
-@media only screen and (min-width: 1920px) {
-}
+@media only screen and (min-width: 1920px) {}
