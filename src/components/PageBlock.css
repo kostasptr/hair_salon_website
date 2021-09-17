@@ -2,7 +2,7 @@
 
 /* Mobile landscape and portrait displays less than 568px width*/
 
-/* 80s μοτιβο για το φοντο ολης της σελίδας */
+/* 80s background pattern for the entire page */
 .pattern1 {
   background-color: none;
   background-image: url(../images/pattern1.jpg);
@@ -11,7 +11,7 @@
   width: 100%;
 }
 
-/* το container που περιλαμβάνει την εικόνα τον τίτλο και την περιγραφή της υπηρεσίας */
+/* container div, which contains image, title and description of the service*/
 .container-div {
   position: relative;
   margin: 3vw;
@@ -20,14 +20,14 @@
   cursor: pointer;
 }
 
-/* το container που περιεχει την εικονα της υπηρεσίας */
+/* container div which forces image to fit in it */
 .container-image-serv {
   background-size: contain;
   overflow: hidden;
   cursor: pointer;
 }
 
-/* η κλάση της εικόνας που περιέχεται στο container-image-serv */
+/* image's class for a smooth transition during zoom */
 .image-serv {
   width: 100%;
   display: block;
@@ -38,7 +38,7 @@
   -o-transition: transform 0.5s ease;
 }
 
-/* το effect που ενεργοποιείται μόλις γίνει hover στο container-image-serv και περιγράφει τι θα συμβεί στην εικόνα*/
+/* class for the zoom effect which takes place during the image's hover above div.container-image-serv*/
 .container-image-serv:hover img {
   cursor: pointer;
   transform: scale(1.1);
@@ -59,10 +59,11 @@
   -webkit-filter: saturate(10);
 }
 
-/* το container που περιλαμβάνει τον τιτλο της υπηρεσίας και περιλαμβανειται και αυτο στο container-div */
+/* container for the position of service's title*/
 .services-title-container {
   cursor: pointer;
   position: absolute;
+  text-decoration: none;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -77,36 +78,29 @@
   -o-transition: 0.5s;
 }
 
-/* για να μην υπάρχει κάποια υπογράμμιση στον τίτλο της υπηρεσίας */
-a.services-title-container {
-  text-decoration: none;
-}
-
-/* η κλάση του τίτλου της υπηρεσίας που περιέχεται στο services-title-container */
+/* class for service's title and the strikethrough "animation" */
 .services-title {
   cursor: pointer;
   font-family: "Righteous", cursive;
   font-size: 5vw;
   color: #70cdc3;
   width: 100%;
-  background-image: linear-gradient(
-    to bottom,
-    rgba(112, 205, 195, 0) 50%,
-    rgba(112, 205, 195, 1) 50%,
-    rgba(112, 205, 195, 1) 60%,
-    rgba(112, 205, 195, 0) 60%
-  );
+  background-image: linear-gradient(to bottom,
+      rgba(112, 205, 195, 0) 50%,
+      rgba(112, 205, 195, 1) 50%,
+      rgba(112, 205, 195, 1) 60%,
+      rgba(112, 205, 195, 0) 60%);
   background-size: 0 100%;
   background-repeat: no-repeat;
   transition: 250ms linear;
 }
 
-/* hover effect τιτλου μια οριζόντια γραμμή αλλάζοντας το background-size */
+/* title's hover effect which extends its size*/
 span.services-title:hover {
   background-size: 100% 100%;
 }
 
-/* container του κειμένου που περιγράφει την υπηρεσία */
+/* container for the service's description */
 .services-description-container {
   cursor: pointer;
   visibility: hidden;
@@ -125,7 +119,7 @@ span.services-title:hover {
   -o-transform: translate(-50%);
 }
 
-/* κλάση του κειμένου που περιγράφει την πυηρεσία */
+/* class for the properties of text description */
 .services-description {
   cursor: pointer;
   font-family: "Montserrat", "Roboto", sans-serif;
@@ -135,48 +129,34 @@ span.services-title:hover {
   text-align: center;
 }
 
-/* αφαιρεση του padding-bottom που έπαιρνε το p μέσα στο span */
+/* removal of p's padding-bottom space. This space was inherited from span */
 span.services-description p {
   padding: 0;
   margin: 0;
   padding-bottom: 0;
 }
 
+/*property for the visibility of grey box when service's description is hovered*/
 div.container-div:hover div.services-description-container {
   visibility: visible;
 }
 
-/* κατά το hover του container-image-serv το services-description-container γίνεται ορατό */
-/* div.container-image-serv:hover div.services-description-container {
-    visibility: visible;
-  } */
-
-/* το ίδιο συμβαίνει και κατά το hover του services-description-container*/
-/* a.services-title-container:hover + div.services-description-container {
-    visibility: visible;
-  } */
-
-/* όταν γίνεται hover πάνω από το services-description-container τότε το div από αόρατο γίνεται ορατό κατά 0.5 */
+/* property for the amount of grey box's visibility*/
 div.services-description-container:hover {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* Mobile, landscape */
-@media only screen and (min-width: 568px) {
-}
+@media only screen and (min-width: 568px) {}
 
 /* Tablet, portrait */
-@media only screen and (min-width: 768px) {
-}
+@media only screen and (min-width: 768px) {}
 
 /* Tablet, landscape */
-@media only screen and (min-width: 1024px) {
-}
+@media only screen and (min-width: 1024px) {}
 
 /* Laptop displays */
-@media only screen and (min-width: 1366px) {
-}
+@media only screen and (min-width: 1366px) {}
 
 /* Desktop displays */
-@media only screen and (min-width: 1920px) {
-}
+@media only screen and (min-width: 1920px) {}
