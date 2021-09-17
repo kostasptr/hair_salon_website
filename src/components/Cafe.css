@@ -1,6 +1,6 @@
 /* Mobile landscape and portrait displays less than 568px width*/
 
-.container-cafe {
+.cafe_container {
   margin: 0;
   padding: 0;
   position: relative;
@@ -8,15 +8,13 @@
   color: white;
 }
 
-.img-cafe {
+.img_cafe {
   width: 100%;
   display: block;
 }
 
-.content-title-cafe {
+.container_for_text {
   cursor: default;
-  font-family: "Montserrat", "Roboto", sans-serif;
-  font-size: 3vw;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -28,78 +26,54 @@
   -o-transform: translate(-50%, -50%);
 }
 
-div.content-title-cafe p:nth-of-type(1) {
-  padding: 0;
+.container_title {
+  font-family: "Righteous", cursive;
+  font-size: 16px;
+  font-weight: bold;
 }
 
-div.content-title-cafe p:nth-of-type(2) {
-  padding: 0;
-}
-
-/* .content-text-cafe {
-    cursor: default;
-    font-family: "Montserrat", "Roboto", sans-serif;
-    font-size: 1rem;
-    position: absolute;
-    top: 65%;
-    left: 50%;
-   
-    width: 100%;
-    transform: translateY(-65%);
-    -webkit-transform: translateY(-65%);
-    -moz-transform: translateY(-65%);
-    -ms-transform: translateY(-65%);
-    -o-transform: translateY(-65%);
-  } */
-
-.content-text-margins {
+.container_text {
+  font-family: "Righteous", cursive;
+  font-size: 16px;
+  font-weight: normal;
   padding: 0px 20px;
 }
 
-a.here-text {
-  font-family: "Montserrat", "Roboto", sans-serif;
-  font-size: 3vw;
+.hereLink {
+  font-family: "Righteous", cursive;
+  font-size: 16px;
+  font-weight: 100;
   color: white;
-  text-decoration: line-through;
+  text-decoration: underline;
 }
 
-a.here-text:hover {
+.hereLink:hover {
   text-decoration: none;
+  color: #BD439B;
 }
 
-.div-playlist {
+.playlist_container {
+  display: flex;
+  padding: 10px 0;
   background-color: #929f00;
-  background-clip: content-box;
-  margin: 0;
-  padding: 0;
-  display: block;
-  /* padding: var(--padding); */
-  /* box-shadow: inset var(--padding) lightgreen; */
 }
 
 .playlist {
+  margin: auto;
   max-width: 70%;
-
-  /* background-clip: content-box; */
-  /* box-shadow: inset 11rem lightGreen; */
 }
 
 /* Mobile, landscape */
-@media only screen and (min-width: 568px) {
-}
+@media only screen and (min-width: 568px) {}
 
 /* Tablet, portrait */
-@media only screen and (min-width: 768px) {
-}
+@media only screen and (min-width: 768px) {}
 
 /* Tablet, landscape */
-@media only screen and (min-width: 1024px) {
-}
+@media only screen and (min-width: 1024px) {}
 
 /* Laptop displays */
-@media only screen and (min-width: 1366px) {
-}
+@media only screen and (min-width: 1366px) {}
 
 /* Desktop displays */
-@media only screen and (min-width: 1920px) {
-}
+@media only screen and (min-width: 1920px) {}
