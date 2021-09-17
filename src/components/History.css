@@ -6,64 +6,79 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  background-color: DodgerBlue;
 }
 
-.container-history:nth-of-type(4) {
-  padding: 0px 0px 10px 0px;
-}
-
-.container-history > div {
+.container-history>div {
   background-color: white;
   margin: 10px 10px 0px 10px;
-  border: 5px solid black;
   width: 100%;
 }
 
-.element-photos {
+.history_photos {
+  position: relative;
   order: 1;
+  background-size: contain;
 }
 
 img {
   display: block;
   width: 100%;
-  height: auto;
 }
 
-.element-text {
+.text_above_image {
+  position: absolute;
+  margin: auto;
+  color: white;
+  font-family: "Righteous", cursive;
+  font-weight: bold;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+
+.position1 {
+  bottom: -5px;
+  left: 0px;
+  padding: 0;
+}
+
+.position2 {
+  top: -1%;
+  right: 0%;
+  padding: 0;
+}
+
+.position3 {
+  top: 50%;
+  left: 15%;
+}
+
+.position4 {
+  top: 20%;
+  left: 40%;
+}
+
+.text_container {
   cursor: default;
   order: 2;
-  display: flex;
   width: 100vw;
-  height: 92.5vw;
+  padding: 0px 0px 20px 0px;
   color: black;
   font-family: "Montserrat", "Roboto", sans-serif;
   font-size: 4vw;
-  align-items: center;
-  /* height: auto; */
 }
 
-/* .naration {
-    font-size: 4vw;
-    line-height: 1vw;
-  } */
 
 /* Mobile, landscape */
-@media only screen and (min-width: 568px) {
-}
+@media only screen and (min-width: 568px) {}
 
 /* Tablet, portrait */
-@media only screen and (min-width: 768px) {
-}
+@media only screen and (min-width: 768px) {}
 
 /* Tablet, landscape */
-@media only screen and (min-width: 1024px) {
-}
+@media only screen and (min-width: 1024px) {}
 
 /* Laptop displays */
-@media only screen and (min-width: 1366px) {
-}
+@media only screen and (min-width: 1366px) {}
 
 /* Desktop displays */
-@media only screen and (min-width: 1920px) {
-}
+@media only screen and (min-width: 1920px) {}
