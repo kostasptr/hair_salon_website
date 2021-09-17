@@ -23,9 +23,6 @@ function Footer() {
           <p className="copyright_notice">&copy; 2021 Amadeus | All rights reserved</p>
         </div>
 
-        {/* <div>
-          <ScrollButton />
-        </div> */}
       </div>
       <ScrollButton />
     </footer>
