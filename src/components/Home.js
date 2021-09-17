@@ -15,8 +15,8 @@ function Home() {
 
       <PageBlock
         title={'Products'}
-        semantic={'products we use'}
-        description={'cccccccccccccccccccccccc'}
+        semantic={'Products we use'}
+        description={'We think...green'}
       />
 
       <PageBlock
@@ -28,19 +28,19 @@ function Home() {
       <PageBlock
         title={'History'}
         semantic={'our history'}
-        description={'eeeeeeeeeee'}
+        description={'A vision becomes reality'}
       />
 
       <PageBlock
         title={'Book'}
         semantic={'book online'}
-        description={'ddddddddddddddd'}
+        description={'Pick up the date, time and the hairdresser of your choice'}
       />
 
       <PageBlock
         title={'Contact'}
-        semantic={'fffffffffff'}
-        description={'fffffffffff'}
+        semantic={'contact details'}
+        description={'Ask us, anything you want'}
       />
 
     </div>
