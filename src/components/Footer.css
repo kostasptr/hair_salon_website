@@ -39,22 +39,6 @@ p {
   padding-bottom: 10px;
 }
 
-input[type="email"] {
-  border: 1px solid #555;
-  background-color: #f8f8f8;
-  width: 5rem;
-  height: 2rem;
-  transition: 0.5s;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
-}
-
-input[type="text"]:focus {
-  border: 1px solid rgb(0, 0, 0);
-}
-
 .copyright_notice {
   color: rgba(0, 0, 0, 0.6);
   padding: 0px;
