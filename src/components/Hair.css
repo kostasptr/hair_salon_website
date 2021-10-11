@@ -240,12 +240,13 @@ div.flex-container:nth-of-type(7) {
   padding: 35px 15px 15px 15px;
 }
 
-/* Mobile, landscape */
-@media only screen and (min-width: 568px) {
-}
 
-/* Tablet, portrait displays */
-@media only screen and (min-width: 768px) {
+
+/* Mobile, landscape */
+@media only screen and (min-width: 481px) {}
+
+/* Tablet, portrait */
+@media only screen and (min-width: 769px) {
   .responsive {
     width: 49.99999%;
     margin: 6px 0;
@@ -258,16 +259,8 @@ div.flex-container:nth-of-type(7) {
   }
 }
 
-
-
 /* Tablet, landscape */
-@media only screen and (min-width: 1024px) {
-}
+@media only screen and (min-width: 1025px) {}
 
 /* Laptop displays */
-@media only screen and (min-width: 1366px) {
-}
-
-/* Desktop displays */
-@media only screen and (min-width: 1920px) {
-}
+@media only screen and (min-width: 1200px) {}

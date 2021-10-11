@@ -150,18 +150,14 @@ div.dropdown {
   }
 }
 
-/* Tablet, portrait displays */
-@media only screen and (min-width: 768px) {
-}
+/* Mobile, landscape */
+@media only screen and (min-width: 481px) {}
 
-/* Tablet, landscape displays */
-@media only screen and (min-width: 1024px) {
-}
+/* Tablet, portrait */
+@media only screen and (min-width: 769px) {}
 
-/* laptop displays */
-@media only screen and (min-width: 1366px) {
-}
+/* Tablet, landscape */
+@media only screen and (min-width: 1025px) {}
 
-/* Desktop and Retina displays */
-@media only screen and (min-width: 1920px) {
-}
+/* Laptop displays */
+@media only screen and (min-width: 1200px) {}

@@ -100,16 +100,13 @@
 
 
 /* Mobile, landscape */
-@media only screen and (min-width: 568px) {}
+@media only screen and (min-width: 481px) {}
 
 /* Tablet, portrait */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 769px) {}
 
 /* Tablet, landscape */
-@media only screen and (min-width: 1024px) {}
+@media only screen and (min-width: 1025px) {}
 
 /* Laptop displays */
-@media only screen and (min-width: 1366px) {}
-
-/* Desktop displays */
-@media only screen and (min-width: 1920px) {}
+@media only screen and (min-width: 1200px) {}
