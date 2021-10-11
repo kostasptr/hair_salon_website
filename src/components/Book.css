@@ -1,5 +1,19 @@
 /* Mobile landscape and portrait displays less than 481px width*/
+.App-Book{
+  background-color:yellow;
+  display:flex;
+  height: calc(100vh - 70px);
+  justify-content: center;
+  align-items: center;
+}
 
+.underCon{
+  text-align: center;
+  font-size: 12vw;
+  font-weight: bold;
+  background-color: black;
+  color: yellow;
+}
 /* Mobile, landscape */
 @media only screen and (min-width: 481px) {}
 
