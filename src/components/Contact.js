@@ -1,4 +1,5 @@
 import React from 'react';
+import Googlemap from './Googlemap';
 import './Contact.css';
 
 class Contact extends React.Component {
@@ -58,10 +59,9 @@ class Contact extends React.Component {
         </div>
 
           <p className="pageHeaders">Address</p>
-          <p>170 Crawford Street <br></br>W1H2JQ London</p>
-          <div>
+          <p>83-109 Seymour Place<br></br>London</p>
+          <Googlemap/>
 
-          </div>
         </div>
       </div>
     );
