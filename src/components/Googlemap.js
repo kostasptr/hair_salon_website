@@ -1,6 +1,5 @@
 import React from 'react';
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
-// import './Googlemap.css';
 
 
 const containerStyle = {
@@ -151,7 +150,7 @@ const onLoad = marker => {
 function Googlemap() {
   return (
     <LoadScript
-      googleMapsApiKey= "process.env.API_KEY" language="en" 
+      googleMapsApiKey="AIzaSyAhCG0lt9ULHLD9N8AYTXmXHXuDoVro6gA" language="en" 
     >
       <GoogleMap
       mapContainerStyle={containerStyle}
