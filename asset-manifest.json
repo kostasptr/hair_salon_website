@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/hair_salon_project_under_development/static/css/main.2c32302b.chunk.css",
-    "main.js": "/hair_salon_project_under_development/static/js/main.108ecc22.chunk.js",
-    "main.js.map": "/hair_salon_project_under_development/static/js/main.108ecc22.chunk.js.map",
+    "main.js": "/hair_salon_project_under_development/static/js/main.da8cfc57.chunk.js",
+    "main.js.map": "/hair_salon_project_under_development/static/js/main.da8cfc57.chunk.js.map",
     "runtime-main.js": "/hair_salon_project_under_development/static/js/runtime-main.c6536b7a.js",
     "runtime-main.js.map": "/hair_salon_project_under_development/static/js/runtime-main.c6536b7a.js.map",
     "static/css/2.af3ab7ac.chunk.css": "/hair_salon_project_under_development/static/css/2.af3ab7ac.chunk.css",
-    "static/js/2.2bdfdc9c.chunk.js": "/hair_salon_project_under_development/static/js/2.2bdfdc9c.chunk.js",
-    "static/js/2.2bdfdc9c.chunk.js.map": "/hair_salon_project_under_development/static/js/2.2bdfdc9c.chunk.js.map",
+    "static/js/2.ae065c1c.chunk.js": "/hair_salon_project_under_development/static/js/2.ae065c1c.chunk.js",
+    "static/js/2.ae065c1c.chunk.js.map": "/hair_salon_project_under_development/static/js/2.ae065c1c.chunk.js.map",
     "static/js/3.297c3c9a.chunk.js": "/hair_salon_project_under_development/static/js/3.297c3c9a.chunk.js",
     "static/js/3.297c3c9a.chunk.js.map": "/hair_salon_project_under_development/static/js/3.297c3c9a.chunk.js.map",
     "index.html": "/hair_salon_project_under_development/index.html",
     "static/css/2.af3ab7ac.chunk.css.map": "/hair_salon_project_under_development/static/css/2.af3ab7ac.chunk.css.map",
     "static/css/main.2c32302b.chunk.css.map": "/hair_salon_project_under_development/static/css/main.2c32302b.chunk.css.map",
-    "static/js/2.2bdfdc9c.chunk.js.LICENSE.txt": "/hair_salon_project_under_development/static/js/2.2bdfdc9c.chunk.js.LICENSE.txt",
+    "static/js/2.ae065c1c.chunk.js.LICENSE.txt": "/hair_salon_project_under_development/static/js/2.ae065c1c.chunk.js.LICENSE.txt",
     "static/media/cafe.f2025d23.jpeg": "/hair_salon_project_under_development/static/media/cafe.f2025d23.jpeg",
     "static/media/eco_friendly.a9461e0e.png": "/hair_salon_project_under_development/static/media/eco_friendly.a9461e0e.png",
     "static/media/history_1.a3eacf54.jpg": "/hair_salon_project_under_development/static/media/history_1.a3eacf54.jpg",
@@ -57,8 +57,8 @@
   "entrypoints": [
     "static/js/runtime-main.c6536b7a.js",
     "static/css/2.af3ab7ac.chunk.css",
-    "static/js/2.2bdfdc9c.chunk.js",
+    "static/js/2.ae065c1c.chunk.js",
     "static/css/main.2c32302b.chunk.css",
-    "static/js/main.108ecc22.chunk.js"
+    "static/js/main.da8cfc57.chunk.js"
   ]
 }
