@@ -3,6 +3,7 @@ import './Header.css';
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import logo from '../images/logo3.jpg';
+import { slide as Menu } from 'react-burger-menu'
 
 function Header() {
   const [isHidden, setHidden] = useState("true");
@@ -20,8 +21,8 @@ function Header() {
             <li className="nav-link"><a href="/"> Home </a></li>
             <li className="nav-link"><a href="Hair"> Hair </a></li>
             <li className="nav-link"><a href="Products"> Products We Use </a></li>
-            <li className="nav-link"><a href="Cafe"> Cafe </a></li>
             <li className="nav-link"><a href="History"> Our History </a></li>
+            <li className="nav-link"><a href="Cafe"> Cafe </a></li>
           </ul>
         </div>
 
@@ -34,7 +35,6 @@ function Header() {
         <div role="navigation" aria-label="menu 2" className="nav-menu tablet">
           <ul className="nav-items bottom-space">
             <li className="nav-link">+30 6972827033</li>
-            <li className="nav-link"><a href="Email"> Email Us </a></li>
             <li className="nav-link"><a href="Book"> Book Online </a></li>
             <li className="nav-link"><a href="Contact"> Contact </a></li>
           </ul>
@@ -51,10 +51,9 @@ function Header() {
             <li className="nav-link"><a href="/"> Home </a></li>
             <li className="nav-link"><a href="Hair"> Hair </a></li>
             <li className="nav-link"><a href="Products"> Products We Use </a></li>
-            <li className="nav-link"><a href="Cafe"> Cafe </a></li>
             <li className="nav-link"><a href="History"> Our History </a></li>
+            <li className="nav-link"><a href="Cafe"> Cafe </a></li>
             <li className="nav-link">+30 6972827033</li>
-            <li className="nav-link"><a href="Email"> Email Us </a></li>
             <li className="nav-link"><a href="Book"> Book Online </a></li>
             <li className="nav-link"><a href="Contact"> Contact </a></li>
           </ul>
