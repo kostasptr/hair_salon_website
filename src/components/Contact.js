@@ -31,8 +31,7 @@ class Contact extends React.Component {
           <p>Saturday - Sunday<br></br> from 9:00 to 13:00</p>
           <p className="pageHeaders">Get in touch</p>
 
-          <div>
-          <form action="#">
+          <form action="#" className="formFlex">
             <div className="form-group">
               <input type="text" id="name" placeholder="Name" value={this.state.name} onChange={e => this.setState({name:e.target.value})}
               />
@@ -47,19 +46,18 @@ class Contact extends React.Component {
             
             <div className="radioOptions">
               <span>Select your gender</span><br></br>
-              <label htmlFor="male">Male</label>
-              <input type="radio" id="male" name="genderSelection" value="male" onChange={e => this.setState({gender:"Male"})}/>
               <label htmlFor="female">Female</label>
               <input type="radio" id="female" name="genderSelection" value="female" onChange={e => this.setState({gender:"Female"})}/>
+              <label htmlFor="male">Male</label>
+              <input type="radio" id="male" name="genderSelection" value="male" onChange={e => this.setState({gender:"Male"})}/>
               <label htmlFor="other">Other</label>
               <input type="radio" id="other" name="genderSelection" value="other" onChange={e => this.setState({gender:"Other"})}/>
             </div>
             <button type="submit" className="form-control-button" value="Submit" onClick={e => this.handleFormSubmit(e)} >Submit</button>
           </form>
-        </div>
 
           <p className="pageHeaders">Address</p>
-          <p>83-109 Seymour Place<br></br>London</p>
+          <p>83-109 Seymour Place, London</p>
           <Googlemap/>
 
         </div>
