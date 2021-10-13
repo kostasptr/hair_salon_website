@@ -20,10 +20,10 @@ function Header() {
         <div role="navigation" aria-label="menu 1" className="nav-menu tablet">
           <ul className="nav-items">
             <li className="nav-link"><Link to="/"> Home </Link></li>
-            <li className="nav-link"><Link to="Hair"> Hair </Link></li>
-            <li className="nav-link"><Link to="Products"> Products We Use </Link></li>
-            <li className="nav-link"><Link to="History"> Our History </Link></li>
-            <li className="nav-link"><Link to="Cafe"> Cafe </Link></li>
+            <li className="nav-link"><Link to="hair"> Hair </Link></li>
+            <li className="nav-link"><Link to="products"> Products We Use </Link></li>
+            <li className="nav-link"><Link to="history"> Our History </Link></li>
+            <li className="nav-link"><Link to="cafe"> Cafe </Link></li>
           </ul>
         </div>
 
@@ -36,8 +36,8 @@ function Header() {
         <div role="navigation" aria-label="menu 2" className="nav-menu tablet">
           <ul className="nav-items bottom-space">
             <li className="nav-link">+30 6972827033</li>
-            <li className="nav-link"><a href="Book"> Book Online </a></li>
-            <li className="nav-link"><a href="Contact"> Contact </a></li>
+            <li className="nav-link"><Link to="book"> Book Online </Link></li>
+            <li className="nav-link"><Link to="contact"> Contact </Link></li>
           </ul>
         </div>
 
@@ -49,14 +49,14 @@ function Header() {
 
         <div role="navigation" aria-label="menu 1" className={'nav-menu mobile' + (isHidden ? ' hidden' : '')}>
           <ul className="nav-items">
-            <li className="nav-link"><a href="/"> Home </a></li>
-            <li className="nav-link"><a href="Hair"> Hair </a></li>
-            <li className="nav-link"><a href="Products"> Products We Use </a></li>
-            <li className="nav-link"><a href="History"> Our History </a></li>
-            <li className="nav-link"><a href="Cafe"> Cafe </a></li>
+            <li className="nav-link"><Link to="/"> Home </Link></li>
+            <li className="nav-link"><Link to="hair"> Hair </Link></li>
+            <li className="nav-link"><Link to="products"> Products We Use </Link></li>
+            <li className="nav-link"><Link to="history"> Our History </Link></li>
+            <li className="nav-link"><Link to="cafe"> Cafe </Link></li>
             <li className="nav-link">+30 6972827033</li>
-            <li className="nav-link"><a href="Book"> Book Online </a></li>
-            <li className="nav-link"><a href="Contact"> Contact </a></li>
+            <li className="nav-link"><Link to="book"> Book Online </Link></li>
+            <li className="nav-link"><Link to="contact"> Contact </Link></li>
           </ul>
         </div>
       </nav>
