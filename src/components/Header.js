@@ -4,7 +4,6 @@ import './Header.css';
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import logo from '../images/logo3.jpg';
-import { slide as Menu } from 'react-burger-menu'
 
 function Header() {
   const [isHidden, setHidden] = useState("true");
