@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/hair_salon_project_under_development/static/css/main.2c32302b.chunk.css",
-    "main.js": "/hair_salon_project_under_development/static/js/main.c1a5217b.chunk.js",
-    "main.js.map": "/hair_salon_project_under_development/static/js/main.c1a5217b.chunk.js.map",
+    "main.js": "/hair_salon_project_under_development/static/js/main.108ecc22.chunk.js",
+    "main.js.map": "/hair_salon_project_under_development/static/js/main.108ecc22.chunk.js.map",
     "runtime-main.js": "/hair_salon_project_under_development/static/js/runtime-main.c6536b7a.js",
     "runtime-main.js.map": "/hair_salon_project_under_development/static/js/runtime-main.c6536b7a.js.map",
     "static/css/2.af3ab7ac.chunk.css": "/hair_salon_project_under_development/static/css/2.af3ab7ac.chunk.css",
@@ -59,6 +59,6 @@
     "static/css/2.af3ab7ac.chunk.css",
     "static/js/2.2bdfdc9c.chunk.js",
     "static/css/main.2c32302b.chunk.css",
-    "static/js/main.c1a5217b.chunk.js"
+    "static/js/main.108ecc22.chunk.js"
   ]
 }
