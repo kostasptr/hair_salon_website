@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from "react-router-dom";
 import './Header.css';
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -18,11 +19,11 @@ function Header() {
 
         <div role="navigation" aria-label="menu 1" className="nav-menu tablet">
           <ul className="nav-items">
-            <li className="nav-link"><a href="/"> Home </a></li>
-            <li className="nav-link"><a href="Hair"> Hair </a></li>
-            <li className="nav-link"><a href="Products"> Products We Use </a></li>
-            <li className="nav-link"><a href="History"> Our History </a></li>
-            <li className="nav-link"><a href="Cafe"> Cafe </a></li>
+            <li className="nav-link"><Link to="/"> Home </Link></li>
+            <li className="nav-link"><Link to="Hair"> Hair </Link></li>
+            <li className="nav-link"><Link to="Products"> Products We Use </Link></li>
+            <li className="nav-link"><Link to="History"> Our History </Link></li>
+            <li className="nav-link"><Link to="Cafe"> Cafe </Link></li>
           </ul>
         </div>
 
