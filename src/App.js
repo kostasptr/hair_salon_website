@@ -1,7 +1,5 @@
 import React from 'react';
-import './App.css';
 import { BrowserRouter as Routing, Switch, Route } from 'react-router-dom';
-
 import Header from './components/Header';
 import Products from './components/Products';
 import Hair from './components/Hair';
@@ -11,6 +9,7 @@ import Home from './components/Home';
 import History from './components/History';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import './App.css';
 
 
 function App() {
