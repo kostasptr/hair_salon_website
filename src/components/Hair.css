@@ -1,5 +1,4 @@
 /* Mobile landscape and portrait displays less than 568px width*/
-
 * {
   box-sizing: border-box;
 }
@@ -31,8 +30,8 @@ display property determines the appearance behaviour of an element.
 .coloring-div,
 .treatment-div {
   margin: auto;
-  margin-bottom: 20px;
-  margin-top: 30px;
+  /* margin-bottom: 20px; */
+  margin-top: 60px;
   width: 93%;
   padding: 0px;
   display: block;
@@ -57,8 +56,33 @@ display property determines the appearance behaviour of an element.
   background-color: white;
 }
 
+.flex-hair,
+.flex-styl {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+
 /* overflow property for the divs containing the images of each service */
 .responsive {
+  margin: auto;
+  margin-top: 30px;
+  /* margin-bottom: 6%; */
+  /* width: 94%; */
+  width: 44%;
+  overflow: hidden;
+}
+
+.responsive-treat {
+  margin: auto;
+  margin-top: 6%;
+  /* margin-bottom: 3%; */
+  width: 94%;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.responsive-treat3 {
   margin: auto;
   margin-top: 6%;
   margin-bottom: 6%;
@@ -243,7 +267,9 @@ div.flex-container:nth-of-type(7) {
 
 
 /* Mobile, landscape */
-@media only screen and (min-width: 481px) {}
+@media only screen and (min-width: 481px) {
+
+}
 
 /* Tablet, portrait */
 @media only screen and (min-width: 769px) {
@@ -263,4 +289,6 @@ div.flex-container:nth-of-type(7) {
 @media only screen and (min-width: 1025px) {}
 
 /* Laptop displays */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+  
+}

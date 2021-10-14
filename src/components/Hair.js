@@ -40,28 +40,30 @@ function Hair() {
         In Amadeus we see each face as a piece of art ready to be presented to the world. And what a beautiful art piece would be without a great frame? Hairstyle can transform a face and enhance its uniqueness. For this reason, we offer a wide variety of haircut options adjusted to any face shape and character. From classic haircuts to big fancy 80’s hair we are here to embrace your style.
       </div>
 
-      <div className="responsive">
-        <a target="_blank" href={test1} rel="noreferrer">
-          <img src={test1} alt="man among flowers" className="image-zoom" />
-        </a>
-      </div>
+      <div className="flex-hair">
+        <div className="responsive">
+          <a target="_blank" href={test1} rel="noreferrer">
+            <img src={test1} alt="man among flowers" className="image-zoom" />
+          </a>
+        </div>
 
-      <div className="responsive">
-        <a target="_blank" href={test2} rel="noreferrer">
-          <img src={test2} alt="" className="image-zoom sat" />
-        </a>
-      </div>
+        <div className="responsive">
+          <a target="_blank" href={test2} rel="noreferrer">
+            <img src={test2} alt="" className="image-zoom sat" />
+          </a>
+        </div>
 
-      <div className="responsive">
-        <a target="_blank" href={test3} rel="noreferrer">
-          <img src={test3} alt="" className="image-zoom" />
-        </a>
-      </div>
+        <div className="responsive">
+          <a target="_blank" href={test3} rel="noreferrer">
+            <img src={test3} alt="" className="image-zoom" />
+          </a>
+        </div>
 
-      <div className="responsive">
-        <a target="_blank" href={test4} rel="noreferrer">
-          <img src={test4} alt="" className="image-zoom" />
-        </a>
+        <div className="responsive">
+          <a target="_blank" href={test4} rel="noreferrer">
+            <img src={test4} alt="" className="image-zoom" />
+          </a>
+        </div>
       </div>
 
 
@@ -73,28 +75,30 @@ function Hair() {
             We can fulfill any wish! Your imagination is our limit. From smooth and flat hair styles to edgy and eccentric haircuts we can help you find the perfect look for you. We love getting creative!
       </div>
 
-      <div className="responsive">
-        <a target="_blank" href={test5} rel="noreferrer">
-          <img src={test5} alt="" className="image-zoom" />
-        </a>
-      </div>
+      <div className="flex-styl">
+        <div className="responsive">
+          <a target="_blank" href={test5} rel="noreferrer">
+            <img src={test5} alt="" className="image-zoom" />
+          </a>
+        </div>
 
-      <div className="responsive">
-        <a target="_blank" href={test6} rel="noreferrer">
-          <img src={test6} alt="" className="image-zoom" />
-        </a>
-      </div>
+        <div className="responsive">
+          <a target="_blank" href={test6} rel="noreferrer">
+            <img src={test6} alt="" className="image-zoom" />
+          </a>
+        </div>
 
-      <div className="responsive">
-        <a target="_blank" href={test7} rel="noreferrer">
-          <img src={test7} alt="" className="image-zoom" />
-        </a>
-      </div>
+        <div className="responsive">
+          <a target="_blank" href={test7} rel="noreferrer">
+            <img src={test7} alt="" className="image-zoom" />
+          </a>
+        </div>
 
-      <div className="responsive">
-        <a target="_blank" href={test8} rel="noreferrer">
-          <img src={test8} alt="" className="image-zoom" />
-        </a>
+        <div className="responsive">
+          <a target="_blank" href={test8} rel="noreferrer">
+            <img src={test8} alt="" className="image-zoom" />
+          </a>
+        </div>
       </div>
 
 
@@ -200,7 +204,7 @@ function Hair() {
         Transcend time and space! We invite everyone to experience a customized royal treatment that will restore and deeply condition any hair type.
       </div>
 
-      <div className="responsive">
+      <div className="responsive-treat">
         <a href="Products" className="no-decoration">
           <div className="product_image">
             <img src={test10} alt="hair detox" className="image-zoom" />
@@ -212,9 +216,9 @@ function Hair() {
         </a>
       </div>
 
-      {/* <div className="clearfix"></div> */}
+      <div className="clearfix"></div>
 
-      <div className="responsive">
+      <div className="responsive-treat">
         <a href="Products" className="no-decoration">
           <div className="product_image">
             <img src={test11} alt="hair glossing" className="image-zoom" />
@@ -228,7 +232,7 @@ function Hair() {
 
       <div className="clearfix"></div>
 
-      <div className="responsive">
+      <div className="responsive-treat3">
         <a href="Products" className="no-decoration">
           <div className="product_image">
             <img src={test12} alt="caviar hair" className="image-zoom" />
