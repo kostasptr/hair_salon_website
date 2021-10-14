@@ -1,15 +1,6 @@
+/* Mobile landscape and portrait displays less than 568px width*/
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 
-/* Mobile landscape and portrait displays less than 568px width*/
-
-/* 80s background pattern for the entire page */
-.pattern1 {
-  background-color: none;
-  background-image: url(../images/pattern1.jpg);
-  background-repeat: repeat;
-  background-size: contain;
-  width: 100%;
-}
 
 /* container div, which contains image, title and description of the service*/
 .container-div {
@@ -26,6 +17,7 @@
   overflow: hidden;
   cursor: pointer;
 }
+
 
 /* image's class for a smooth transition during zoom */
 .image-serv {
@@ -59,6 +51,7 @@
   -webkit-filter: saturate(10);
 }
 
+
 /* container for the position of service's title*/
 .services-title-container {
   cursor: pointer;
@@ -78,11 +71,11 @@
   -o-transition: 0.5s;
 }
 
-/* class for service's title and the strikethrough "animation" */
+/* class for service's title and strikethrough "animation" */
 .services-title {
   cursor: pointer;
   font-family: "Righteous", cursive;
-  font-size: 5vw;
+  font-size: 22px;
   color: #70cdc3;
   width: 100%;
   background-image: linear-gradient(to bottom,
@@ -99,6 +92,7 @@
 span.services-title:hover {
   background-size: 100% 100%;
 }
+
 
 /* container for the service's description */
 .services-description-container {
@@ -123,7 +117,7 @@ span.services-title:hover {
 .services-description {
   cursor: pointer;
   font-family: "Montserrat", "Roboto", sans-serif;
-  font-size: 4vw;
+  font-size: 12px;
   line-height: 1.3;
   color: #70cdc3;
   text-align: center;
@@ -146,8 +140,37 @@ div.services-description-container:hover {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+
+
+
+/* 80s background pattern for the entire page */
+.pattern1 {
+  background-color: none;
+  background-image: url(../images/pattern1.jpg);
+  background-repeat: repeat;
+  background-size: contain;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
 /* Mobile, landscape */
-@media only screen and (min-width: 481px) {}
+@media only screen and (min-width: 481px) {
+  .services-title {
+    font-size: 32px;
+  }
+
+  span.services-description p {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+}
 
 /* Tablet, portrait */
 @media only screen and (min-width: 769px) {}
@@ -156,4 +179,13 @@ div.services-description-container:hover {
 @media only screen and (min-width: 1025px) {}
 
 /* Laptop displays */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+  .container-div{
+    width: 500px;
+    margin:0;
+    padding:0;
+    /* display: block; */
+  }
+
+
+}
