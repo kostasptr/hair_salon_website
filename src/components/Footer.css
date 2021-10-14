@@ -7,7 +7,7 @@
   color: black;
   font-family: "Righteous", cursive;
   font-size: 13px;
-  padding: 3vw;
+  padding: 0 3vw 3vw 3vw;
   margin: 0;
   height: auto;
   justify-content: space-between;
@@ -46,7 +46,11 @@ p {
 
 
 /* Mobile, landscape */
-@media only screen and (min-width: 481px) {}
+@media only screen and (min-width: 481px) {
+  .flex-footer p{
+    font-size:16px;
+  }
+}
 
 /* Tablet, portrait */
 @media only screen and (min-width: 769px) {}
