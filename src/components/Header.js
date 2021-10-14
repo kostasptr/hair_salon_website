@@ -47,14 +47,14 @@ class Header extends React.Component {
     return (
     
     <header className="App-Header">
-    <nav className="flex-header responsive" ref={this.myRef}>
+    <nav className="flex-header responsiveness" ref={this.myRef}>
     
       <div>
         <a href="/">
           <img className="logoWest" src={logo} alt="john west icon" />
         </a>
       </div>
-      <div className="navigationMobile" ref={this.myNav}>
+      <div className="navigationMobile1" ref={this.myNav}>
         <ul className="nav-items">
           <li className="nav-link"><Link to="/"> Home </Link></li>
           <li className="nav-link"><Link to="hair"> Hair </Link></li>
@@ -63,7 +63,7 @@ class Header extends React.Component {
           <li className="nav-link"><Link to="cafe"> Cafe </Link></li>
         </ul>
       </div>
-      <div className="navigationMobile" ref={this.myNav2}>
+      <div className="navigationMobile2" ref={this.myNav2}>
         <ul className="nav-items">
           <li className="nav-link">+30 6972827033</li>
           <li className="nav-link"><Link to="book"> Book Online </Link></li>
