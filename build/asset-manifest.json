@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/hair_salon_project_under_development/static/css/main.c386e495.chunk.css",
-    "main.js": "/hair_salon_project_under_development/static/js/main.42865527.chunk.js",
-    "main.js.map": "/hair_salon_project_under_development/static/js/main.42865527.chunk.js.map",
+    "main.css": "/hair_salon_project_under_development/static/css/main.bb272467.chunk.css",
+    "main.js": "/hair_salon_project_under_development/static/js/main.4a20e103.chunk.js",
+    "main.js.map": "/hair_salon_project_under_development/static/js/main.4a20e103.chunk.js.map",
     "runtime-main.js": "/hair_salon_project_under_development/static/js/runtime-main.9c3eaeb5.js",
     "runtime-main.js.map": "/hair_salon_project_under_development/static/js/runtime-main.9c3eaeb5.js.map",
     "static/css/2.af3ab7ac.chunk.css": "/hair_salon_project_under_development/static/css/2.af3ab7ac.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.de7af0b7.chunk.js.map": "/hair_salon_project_under_development/static/js/3.de7af0b7.chunk.js.map",
     "index.html": "/hair_salon_project_under_development/index.html",
     "static/css/2.af3ab7ac.chunk.css.map": "/hair_salon_project_under_development/static/css/2.af3ab7ac.chunk.css.map",
-    "static/css/main.c386e495.chunk.css.map": "/hair_salon_project_under_development/static/css/main.c386e495.chunk.css.map",
+    "static/css/main.bb272467.chunk.css.map": "/hair_salon_project_under_development/static/css/main.bb272467.chunk.css.map",
     "static/js/2.651b63e9.chunk.js.LICENSE.txt": "/hair_salon_project_under_development/static/js/2.651b63e9.chunk.js.LICENSE.txt",
     "static/media/cafe.f2025d23.jpeg": "/hair_salon_project_under_development/static/media/cafe.f2025d23.jpeg",
     "static/media/eco_friendly.a9461e0e.png": "/hair_salon_project_under_development/static/media/eco_friendly.a9461e0e.png",
@@ -31,9 +31,9 @@
     "static/media/Hair.css": "/hair_salon_project_under_development/static/media/pattern2.f1819db8.jpg",
     "static/media/Contact.css": "/hair_salon_project_under_development/static/media/pattern_contact.32f68990.jpg",
     "static/media/test1.ccbdc993.jpg": "/hair_salon_project_under_development/static/media/test1.ccbdc993.jpg",
-    "static/media/test10.6d238807.jpg": "/hair_salon_project_under_development/static/media/test10.6d238807.jpg",
-    "static/media/test11.39602b2f.jpg": "/hair_salon_project_under_development/static/media/test11.39602b2f.jpg",
-    "static/media/test12.27c06ddf.jpg": "/hair_salon_project_under_development/static/media/test12.27c06ddf.jpg",
+    "static/media/test10.fe8440b4.jpg": "/hair_salon_project_under_development/static/media/test10.fe8440b4.jpg",
+    "static/media/test11.8d1f4fe4.jpg": "/hair_salon_project_under_development/static/media/test11.8d1f4fe4.jpg",
+    "static/media/test12.f27851fd.jpg": "/hair_salon_project_under_development/static/media/test12.f27851fd.jpg",
     "static/media/test2.84841145.jpg": "/hair_salon_project_under_development/static/media/test2.84841145.jpg",
     "static/media/test3.797b1dff.jpg": "/hair_salon_project_under_development/static/media/test3.797b1dff.jpg",
     "static/media/test4.c838e34c.jpeg": "/hair_salon_project_under_development/static/media/test4.c838e34c.jpeg",
@@ -58,7 +58,7 @@
     "static/js/runtime-main.9c3eaeb5.js",
     "static/css/2.af3ab7ac.chunk.css",
     "static/js/2.651b63e9.chunk.js",
-    "static/css/main.c386e495.chunk.css",
-    "static/js/main.42865527.chunk.js"
+    "static/css/main.bb272467.chunk.css",
+    "static/js/main.4a20e103.chunk.js"
   ]
 }
