@@ -67,8 +67,6 @@ display property determines the appearance behaviour of an element.
 .responsive {
   margin: auto;
   margin-top: 30px;
-  /* margin-bottom: 6%; */
-  /* width: 94%; */
   width: 44%;
   overflow: hidden;
 }
@@ -76,7 +74,6 @@ display property determines the appearance behaviour of an element.
 .responsive-treat {
   margin: auto;
   margin-top: 6%;
-  /* margin-bottom: 3%; */
   width: 94%;
   padding: 0px;
   overflow: hidden;
@@ -90,21 +87,6 @@ display property determines the appearance behaviour of an element.
   padding: 0px;
   overflow: hidden;
 }
-
-/* image container */
-/* .gallery {
-  overflow: hidden;
-  max-width: 100%;
-  height: auto;
-  margin: auto;
-} */
-
-/* αρχικό πλάτος εικόνας */
-/* div.gallery img {
-  max-block-size: 95%;
-  height: auto;
-  margin: auto;
-} */
 
 /* image zoom during hover */
 .responsive:hover img {
@@ -136,8 +118,8 @@ display property determines the appearance behaviour of an element.
 /*Child του responsive, περιέχει το slider-carousel*/
 .slider {
   margin: auto;
-  margin-top: 6%;
-  margin-bottom: 6%;
+  margin-top: 30px;
+  margin-bottom: 60px;
   width: 94%;
   height: auto;
   padding: 0px;
@@ -274,21 +256,135 @@ div.flex-container:nth-of-type(7) {
 /* Tablet, portrait */
 @media only screen and (min-width: 769px) {
   .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
+    width: 44%;
+  }
+  
+  .responsive-treat {
+    width: 33%;
+    margin-top:30px;
+  }
+  
+  .responsive-treat3 {
+    width: 33%;
+    margin-top:30px;
   }
 
-  .responsive {
-    padding: 0 6px;
-    float: left;
-    width: 24.99999%;
-  }
+  .flex-treat {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  width: 93%;
+  margin:auto;
+}
 }
 
 /* Tablet, landscape */
-@media only screen and (min-width: 1025px) {}
+@media only screen and (min-width: 1025px) {
+  .slider {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    width: 60%;
+    height: auto;
+    padding: 0px;
+    overflow: hidden;
+  }
+  
+  /*Child του slider. Περιέχει την κάθε εικόνα με το overlay text*/
+  .slider-img-container {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 60%;
+  }
+
+  /*Child του slider-img-container. */
+.slider-img {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  object-fit: cover;
+  display: block;
+}
+
+}
 
 /* Laptop displays */
 @media only screen and (min-width: 1200px) {
+  .services-text{
+    letter-spacing: 5px;
+    line-height: 25px;
+    font-size: 16px;
+  }
+
+  .flex-hair,
+  .flex-styl {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  width: 93%;
+  margin:auto;
+  padding:0;
+}
+
+  .responsive {
+    width: 24%;
+    margin-left:0;
+    margin-right:0;
+  }
   
+  .responsive-treat {
+    width: 33%;
+    margin-left:0;
+    margin-right:0;
+  }
+  
+  .responsive-treat3 {
+    width: 33%;
+    margin-left:0;
+    margin-right:0;
+  }
+
+  .flex-treat {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    width: 93%;
+    margin:auto;
+    padding:0;
+  }
+
+  .slider {
+    width: 50%;
+    margin:auto;
+    /* display:flex; */
+    /* justify-content: center; */
+    /* margin-left:auto; */
+  }
+
+  /* .alice-carousel{
+    width: 50%;
+  } */
+
+  /*Child του slider. Περιέχει την κάθε εικόνα με το overlay text*/
+  .slider-img-container {
+    width: 100%;
+  }
+
+  /*Child του slider-img-container. */
+  .slider-img {
+  width: 50%;
+  /* margin:auto;   */
+  }
+
+  .overlay{
+    width: 50%;
+    /* margin:auto; */
+  }
+
+
 }

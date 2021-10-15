@@ -36,29 +36,25 @@ function Hair() {
       <div className="haircut-div">
         <p className="haircut-div-title">
           Haircuts
-          </p>
-        In Amadeus we see each face as a piece of art ready to be presented to the world. And what a beautiful art piece would be without a great frame? Hairstyle can transform a face and enhance its uniqueness. For this reason, we offer a wide variety of haircut options adjusted to any face shape and character. From classic haircuts to big fancy 80’s hair we are here to embrace your style.
+          </p><p className="services-text">
+        In Amadeus we see each face as a piece of art ready to be presented to the world. And what a beautiful art piece would be without a great frame? Hairstyle transforms face and enhance its uniqueness. For this reason, we offer a wide variety of haircut options adjusted to any face shape and character. From classic haircuts to big fancy 80’s hair we are here to embrace your style.</p>
       </div>
-
       <div className="flex-hair">
         <div className="responsive">
           <a target="_blank" href={test1} rel="noreferrer">
             <img src={test1} alt="man among flowers" className="image-zoom" />
           </a>
         </div>
-
         <div className="responsive">
           <a target="_blank" href={test2} rel="noreferrer">
             <img src={test2} alt="" className="image-zoom sat" />
           </a>
         </div>
-
         <div className="responsive">
           <a target="_blank" href={test3} rel="noreferrer">
             <img src={test3} alt="" className="image-zoom" />
           </a>
         </div>
-
         <div className="responsive">
           <a target="_blank" href={test4} rel="noreferrer">
             <img src={test4} alt="" className="image-zoom" />
@@ -66,34 +62,28 @@ function Hair() {
         </div>
       </div>
 
-
       <div className="clearfix"></div>
 
-
       <div className="styling-div">
-        <p className="styling-div-title">Hair styling</p>
-            We can fulfill any wish! Your imagination is our limit. From smooth and flat hair styles to edgy and eccentric haircuts we can help you find the perfect look for you. We love getting creative!
+        <p className="styling-div-title">Hair styling</p><p className="services-text">
+            We can fulfill any wish! Your imagination is our limit. From smooth and flat hair styles to edgy and eccentric haircuts we can help you find the perfect look for you. We love getting creative!</p>
       </div>
-
       <div className="flex-styl">
         <div className="responsive">
           <a target="_blank" href={test5} rel="noreferrer">
             <img src={test5} alt="" className="image-zoom" />
           </a>
         </div>
-
         <div className="responsive">
           <a target="_blank" href={test6} rel="noreferrer">
             <img src={test6} alt="" className="image-zoom" />
           </a>
         </div>
-
         <div className="responsive">
           <a target="_blank" href={test7} rel="noreferrer">
             <img src={test7} alt="" className="image-zoom" />
           </a>
         </div>
-
         <div className="responsive">
           <a target="_blank" href={test8} rel="noreferrer">
             <img src={test8} alt="" className="image-zoom" />
@@ -101,19 +91,14 @@ function Hair() {
         </div>
       </div>
 
-
       <div className="clearfix"></div>
 
-
       <div className="coloring-div">
-        <p className="coloring-div-title">Hair coloring</p>
-      In our salon you will discover the perfect hair color based on your skin tone and face features. However what is more authentic to you is always the right choice.
+        <p className="coloring-div-title">Hair coloring</p><p className="services-text">
+      In our salon you will discover the perfect hair color based on your skin tone and face features. However what is more authentic to you is always the right choice.</p>
       </div>
-
-
       <div className="slider">
-
-        <AliceCarousel autoPlay autoPlayInterval="2000" autoPlayStrategy="default" disableButtonsControls="false" infinite="default" >
+        <AliceCarousel autoPlay autoPlayInterval="2000" autoPlayStrategy="default" disableButtonsControls="false" infinite="default" innerWidth="50%">
           <div className="slider-img-container">
             <a href={test9a} target="blank">
               <img src={test9a} className="slider-img" alt="woman in purple hair" />
@@ -192,56 +177,48 @@ function Hair() {
           </div>
           <div className="alice-carousel__prev-btn"></div>
         </AliceCarousel>
-
       </div>
-
-
-      <div className="clearfix"></div>
-
-
+      
       <div className="treatment-div">
-        <p className="treatment-div-title">Hair treatment</p>
-        Transcend time and space! We invite everyone to experience a customized royal treatment that will restore and deeply condition any hair type.
+        <p className="treatment-div-title">Hair treatment</p><p className="services-text">
+        Transcend time and space! We invite everyone to experience a customized royal treatment that will restore and deeply condition any hair type.</p>
       </div>
-
-      <div className="responsive-treat">
-        <a href="Products" className="no-decoration">
-          <div className="product_image">
-            <img src={test10} alt="hair detox" className="image-zoom" />
-          </div>
-          <div className="container-treatment-textbox">
-            <p className="bold-title">Hair detox</p>
-            <p>An essential process that deeply cleanses the scalp and rebalances the pH of the skin in order to create a better environment for healthy hair. </p>
-          </div>
-        </a>
-      </div>
-
-      <div className="clearfix"></div>
-
-      <div className="responsive-treat">
-        <a href="Products" className="no-decoration">
-          <div className="product_image">
-            <img src={test11} alt="hair glossing" className="image-zoom" />
-          </div>
-          <div className="container-treatment-textbox">
-            <p className="bold-title">Hair glossing</p>
-            <p>The ultimate solution for frizzy or dull hair or for hair that just need their shine back! This treatment will improve the condition of your hair, will enhance it’s texture and boost the natural shine and color. The result. Super smoothy and shiny hair.</p>
-          </div>
-        </a>
-      </div>
-
-      <div className="clearfix"></div>
-
-      <div className="responsive-treat3">
-        <a href="Products" className="no-decoration">
-          <div className="product_image">
-            <img src={test12} alt="caviar hair" className="image-zoom" />
-          </div>
-          <div className="container-treatment-textbox">
-            <p className="bold-title">Caviar hair</p>
-            <p>Cillum in nulla sunt exercitation tempor nisi proident ex.Et veniam laborum sit laborum amet aliqua mollit laborum aute reprehenderit ipsum excepteur aliqua veniam.</p>
-          </div>
-        </a>
+      <div className="flex-treat">
+        <div className="responsive-treat">
+          <a href="Products" className="no-decoration">
+            <div className="product_image">
+              <img src={test10} alt="hair detox" className="image-zoom" />
+            </div>
+            <div className="container-treatment-textbox">
+              <p className="bold-title">Hair detox</p>
+              <p>An essential process that deeply cleanses the scalp and rebalances the pH of the skin in order to create a better environment for healthy hair. </p>
+            </div>
+          </a>
+        </div>
+        <div className="clearfix"></div>
+        <div className="responsive-treat">
+          <a href="Products" className="no-decoration">
+            <div className="product_image">
+              <img src={test11} alt="hair glossing" className="image-zoom" />
+            </div>
+            <div className="container-treatment-textbox">
+              <p className="bold-title">Hair glossing</p>
+              <p>The ultimate solution for frizzy or dull hair or for hair that just need their shine back! This treatment will improve the condition of your hair, will enhance it’s texture and boost the natural shine and color. The result. Super smoothy and shiny hair.</p>
+            </div>
+          </a>
+        </div>
+        <div className="clearfix"></div>
+        <div className="responsive-treat3">
+          <a href="Products" className="no-decoration">
+            <div className="product_image">
+              <img src={test12} alt="caviar hair" className="image-zoom" />
+            </div>
+            <div className="container-treatment-textbox">
+              <p className="bold-title">Caviar hair</p>
+              <p>Cillum in nulla sunt exercitation tempor nisi proident ex.Et veniam laborum sit laborum amet aliqua mollit laborum aute reprehenderit ipsum excepteur aliqua veniam.</p>
+            </div>
+          </a>
+        </div>
       </div>
 
       <div className="clearfix"></div>
