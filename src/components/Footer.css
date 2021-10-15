@@ -1,5 +1,4 @@
 /* Mobile landscape and portrait displays less than 568px width*/
-
 .flex-footer {
   display: flex;
   flex-direction: row;
@@ -59,4 +58,8 @@ p {
 @media only screen and (min-width: 1025px) {}
 
 /* Laptop displays */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+  .flex-footer {
+    padding: 0 3vw 3vw 3.5vw;
+  }
+}
