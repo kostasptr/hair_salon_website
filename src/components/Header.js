@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import logo from '../images/logo3.jpg';
+import logo from '../images/logo-01.png';
 import './Header.css';
 
 class Header extends React.Component {

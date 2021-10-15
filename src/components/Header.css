@@ -46,11 +46,11 @@ ul.nav-items a {
 
 ul.nav-items a:hover {
   text-decoration: none;
-  color: #b85a23;
+  text-shadow: 2px 2px 4px #a5a5a5;
 }
 
 ul.nav-items a:active {
-  color: #b85a23;
+  text-shadow: 2px 2px 4px #a5a5a5;
 }
 
 .responsiveness {
