@@ -128,10 +128,18 @@ p.hover-target{
   }
 
   .flex-page{
-    display:flex;
+    /* display:flex;
     flex-direction:column;
     align-items:center;
-    height: 100vh;
+    height: 100vh; */
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+
+  .App-Footer{
+    position:absolute;
+    bottom: -274px;
   }
 
   div.greenLine>p:nth-of-type(1){
@@ -145,6 +153,5 @@ p.hover-target{
     padding-top:10px;
     display:block;
   }
-  
 
 }
