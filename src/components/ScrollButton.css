@@ -1,7 +1,7 @@
 .btnContainer {
    position: fixed;
    bottom: 3vw;
-   right: 3%;
+   right: 3.5%;
    height: autox;
    z-index: 1;
    cursor: pointer;
